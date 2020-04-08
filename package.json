@@ -2,7 +2,8 @@
   "name": "telebot-group-reminder",
   "version": "1.0.0",
   "engines": {
-    "node": "10.17.0"
+    "node": "10.17.0",
+    "npm": "6.11.3"
   },
   "description": "Telegram Bot who reminder to attendance and fill timesheet in telegram group",
   "main": "app.js",
