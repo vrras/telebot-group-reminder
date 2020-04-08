@@ -8,8 +8,7 @@
   "description": "Telegram Bot who reminder to attendance and fill timesheet in telegram group",
   "main": "app.js",
   "scripts": {
-    "postinstall": "exit 0",
-    "start": "node app.js",
+    "start": "node app.js || exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
