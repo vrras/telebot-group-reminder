@@ -10,7 +10,7 @@ console.log('Bot is Running!');
 const blastMessage = async (message) => {
     const dataBot = await new Promise((resolve, reject) => {
         // Make a request for a user with a given ID
-        axios.get('https://api.telegram.org/bot1266224642:AAF53c5DNwocn6jw5EvR0JyC2DPxHfa4YQg/getUpdates')
+        axios.get(`https://api.telegram.org/bot${process.env.BOT_TOKEN}/getUpdates`)
             .then(function (response) {
                 // handle success
                 resolve(response.data.result);
