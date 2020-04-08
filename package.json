@@ -1,0 +1,27 @@
+{
+  "name": "telebot-group-reminder",
+  "version": "1.0.0",
+  "description": "Telegram Bot who reminder to attendance and fill timesheet in telegram group",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "telegraf",
+    "bot",
+    "group",
+    "reminder",
+    "attendance",
+    "timesheet"
+  ],
+  "author": "Firas L",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3",
+    "telegraf": "^3.37.0"
+  }
+}
