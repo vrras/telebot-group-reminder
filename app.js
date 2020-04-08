@@ -1,5 +1,5 @@
 const Telegram = require('telegraf/telegram')
-const cron = require('node-cron');
+const cron = require('node-cron-no-open-collective');
 const axios = require('axios');
 require('dotenv').config();
 

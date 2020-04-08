@@ -27,7 +27,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
-    "node-cron": "^2.0.3",
+    "node-cron-no-open-collective": "^2.0.4-beta",
     "telegraf": "^3.37.0"
   }
 }
